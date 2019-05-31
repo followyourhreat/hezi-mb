@@ -1,0 +1,30 @@
+/*全局插件样式表*/
+
+body {
+    margin: 0;
+    background: url(../assets/bg.png) repeat;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
